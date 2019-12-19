@@ -36,10 +36,20 @@ cursor::after {
     }
 }
 
-@keyframes cursorAnim {
-    from {
+@keyframes cursorAnim3 {
+    0% {
         transform: scale(1);
-    } to {
-        transform: scale(.7);
+    } 
+    50% {
+        transform: scale(3);
     }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.expand {
+    animation: cursorAnim3 .5s forwards;
+    border: 1px solid plum;
 }
