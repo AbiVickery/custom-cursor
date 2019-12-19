@@ -2,6 +2,7 @@ body {
     margin: 0;
     height: 100vh;
     /* cursor: url('../images/custom.svg'), auto; */
+    background: black;
 }
 
 .cursor {
