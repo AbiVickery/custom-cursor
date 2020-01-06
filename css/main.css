@@ -3,7 +3,24 @@ body {
     height: 100vh;
     /* cursor: url('../images/custom.svg'), auto; */
     background: black;
+    font-family: 'BenchNine', sans-seriff;
 }
+
+h1 {
+    text-align: center;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#650b81, #e946c1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 21px;
+    background: -webkit-linear-gradient(#650b81, #e946c1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
 .cursor {
     width: 20px;
